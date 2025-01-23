@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <TargetFrameworks>net8.0;netstandard2.0;netstandard2.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.1" />
+      <PackageReference Include="MQTTnet" Version="4.3.6.1152" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="TuioNet">
+        <HintPath>..\..\TuioNet\src\TuioNet\bin\Release\netstandard2.0\TuioNet.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
