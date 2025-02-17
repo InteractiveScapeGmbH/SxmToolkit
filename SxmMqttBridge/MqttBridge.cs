@@ -21,7 +21,7 @@ public class MqttBridge : IDisposable
     private readonly MqttClient _mqttClient;
 
     public event EventHandler<MqttConfig> OnConfigUpdate;
-    private ILogger _logger;
+    private readonly ILogger _logger;
 
     public MqttBridge(ILogger logger, string scapeEngineAddress = DefaultScapeEngineAddress)
     {
@@ -72,6 +72,7 @@ public class MqttBridge : IDisposable
         _mqttClient.UpdateServerSettings(_config.MqttUrl.Host, _config.MqttUrl.Port);
         _mqttClient.Subscribe($"sxm/{_config.Topic}");
         _mqttClient.Connect(OnMessage);
+        _logger.LogInformation($"topic: {_config.Topic} room: {_config.RoomId}, url: {_config.MqttUrl}");
         OnConfigUpdate?.Invoke(this,_config);
     }
 
@@ -83,7 +84,7 @@ public class MqttBridge : IDisposable
         var decoded = Encoding.ASCII.GetString(payload.Array);
         var scapeMessage = JsonConvert.SerializeObject(new ScapeXMessage("message", topic, decoded));
         _websocketClient.Send(scapeMessage);
-
+        _logger.LogDebug($"Send: {scapeMessage}");
         return Task.CompletedTask;
     }
 
