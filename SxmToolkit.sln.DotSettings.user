@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005Cdev_005CTools_005CTuioNet_005Csrc_005CTuioNet_005Cbin_005CRelease_005Cnet8_002E0_005CTuioNet_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005Cdev_005CTools_005CTuioNet_005Csrc_005CTuioNet_005Cbin_005CRelease_005Cnetstandard2_002E0_005CTuioNet_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005Cdev_005CTools_005CTuioNet_005Csrc_005CTuioNet_005Cbin_005CRelease_005Cnetstandard2_002E1_005CTuioNet_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005Cdev_005CTools_005CTuioNet_005CTuioNet_002EClient_005Cbin_005CRelease_005Cnet8_002E0_005CTuioNet_002EClient_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005Cdev_005CTools_005CTuioNet_005CTuioNet_002EClient_005Cbin_005CRelease_005Cnet8_002E0_005CTuioNet_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\dev\Tools\TuioNet\src\TuioNet\bin\Release\net8.0\TuioNet.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c3b9a03d_002D065e_002D4e08_002D9549_002D16a67df2cf31/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_Url_Without_Port" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::FC120CFA-C7CA-4A10-83CB-D25E6EC31A7D::net8.0::TestMqttBridge.TestMqttConfig&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=4f83ddff_002De1fe_002D48fa_002Dba8e_002Da114ddc46fe2_0023MqttBridgeRun/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=fc120cfa_002Dc7ca_002D4a10_002D83cb_002Dd25e6ec31a7d_0023TestMqttBridge/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	</wpf:ResourceDictionary>

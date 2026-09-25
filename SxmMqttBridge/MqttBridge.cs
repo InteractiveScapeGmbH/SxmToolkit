@@ -4,8 +4,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using MQTTnet.Client;
-using TuioNet.Common;
 using Newtonsoft.Json;
+using TuioNet.Client.Common;
+using TuioNet.Common;
+
 
 namespace SxmMqttBridge;
 
